@@ -1,0 +1,58 @@
+---
+title: "Vectors in R"
+author: "Alex Vand"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+# Create a vector
+vec_a <- c(4, 5)
+```
+
+
+
+## Another code chunk
+
+```{r, echo = FALSE}
+# echo = TRUE will display code chunk
+vec_b <- c(-3, 10)
+```
+
+## Vector Addition
+ 
+```{r}
+# Create a new vector vec_c that is the sum of vec_a and vec_b
+vec_c <- vec_a + vec_b
+```
+
+
+## Vector Subtraction
+
+```{r}
+vec_d <- vec_b - vec_a
+```
+
+
+## Vector scalar multiplier
+
+```{r}
+# What is vec_e if it is 4 times vec_b?
+vec_e <- 4 * vec_b
+```
+
+## Dot product
+
+```{r}
+vec_a %*% vec_b
+```
+
+
+
+
+
